@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url(./header.css);
+@import url(./hero.css);
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  color: #fff;
+  font-size: 20px;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  overflow-x: hidden;
+  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  /**
+             * Для эксплорера
+             */
+  -ms-user-select: none;
+  /**
+              * Для мозилы
+              */
+  -moz-user-select: none;
+  /**
+              * Для конкверора
+              */
+  -khtml-user-select: none;
+  /**
+              * Для Сафари и Хрома
+              */
+  -webkit-user-select: none;
+  font-family: "Alegreya Sans", sans-serif;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
